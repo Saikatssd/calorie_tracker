@@ -19,7 +19,7 @@ export default function Challenge() {
 
 
                 <div>
-                    <a href="https://darebee.com/challenges/level-up-challenge.html">
+                    <a href="https://darebee.com/challenges/first-thing-water-challenge.html">
                         <img src="https://www.devourdinner.com/wp-content/uploads/2019/12/Devour-Dinner_30-Day-Water-Challenge-791x1024.jpg" alt="water-challenge-intro"
                              />
                     </a>
@@ -33,8 +33,8 @@ export default function Challenge() {
 
 
                 <div>
-                    <a href="http://darebee.com/challenges/30-days-of-fitness.html">
-                        <img src="https://hips.hearstapps.com/hmg-prod/images/wh010120-30fitnesschallenge-1-1579273670.jpg?resize=980:*" class="img-responsive"
+                    <a href="https://darebee.com/challenges/walk-and-run-challenge.html">
+                        <img src="https://www.snackinginsneakers.com/wp-content/uploads/2022/06/Running-Challenge-Pin.webp" class="img-responsive"
                             alt="30-days-of-fitness-challenge-intro"  />
                     </a>
                 </div>

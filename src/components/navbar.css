@@ -18,7 +18,7 @@ html {
 }
 .navbar-heading{
     /* font-size: 3rem; */
-    width: 270px;
+    width: 29rem;
     /* margin-top:10px; */
 
 }
@@ -34,8 +34,8 @@ html {
 
 nav ul li a {
     display: block;
-    padding: 1.2rem 2.5rem;
-    /* margin: .1rem 6rem; */
+    padding: 1.2rem .8rem;
+    margin: .1rem 1.6rem;
     color: #9a9797;
     font-size: 1.8rem;
     font-weight: 800;
@@ -131,6 +131,7 @@ nav ul li a:hover:after {
        
         /* border: 2px solid black; */
         font-size: 4.2rem;
+        margin: 2px 20px 2px auto;
     }
     
     /* hide the original nav menu */

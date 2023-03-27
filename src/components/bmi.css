@@ -174,7 +174,7 @@
  }
 
  .comment {
-     display: none;
+     /* display: none; */
      border: dashed 1px;
      border-radius: 7px;
      padding: 5px;
@@ -266,8 +266,8 @@
 
  /* Style the indicator (dot/circle) */
  .gender .container .checkmark:after {
-     top: 9px;
-     left: 9px;
+     top: 7px;
+     left: 7px;
      width: 8px;
      height: 8px;
      border-radius: 50%;
@@ -393,9 +393,6 @@
          width: 380px;
      }
 
-
-
-
      .input label {
 
          font-size: 18px;
@@ -421,4 +418,11 @@
 
 
 
+ }
+ @media (max-width:770px){
+    .checkmark {
+        top: 5px;
+        right: 10px;
+        margin-left: 20px;
+    }
  }

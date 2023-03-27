@@ -133,10 +133,28 @@ import React from 'react'
 export default function Exercise() {
   return (
     <div className='container'>
-      <iframe id="exercise-iframe"
-        title="iFrame Example"
-        src="https://www.culinaryschools.org/blog/workout-calories/">
-      </iframe>
+      <h3 className='exercise-heading'>Select Your Category</h3>
+      <div className="exercise-container">
+        <div className="exercise-box">
+          <a href="https://www.verywellfamily.com/easy-exercises-for-kids-1257391" target="_blank"> <img className='exercise-image' src="/images/children_exercise.jpg" alt="Childen Exercise" />
+            <p>Children Age(6-17yrs)</p></a>
+        </div>
+        <div className="exercise-box">
+          <a href="https://www.utrecsports.org/public/upload/files/general/SP20_FW_PT_AtHome_Workouts_Strength.pdf" target="_blank">
+            <img className='exercise-image' src="/images/adult_exercise.jpg" alt="" />
+            <p>Adult Age(18-50yrs)</p></a>
+        </div>
+        <div className="exercise-box">
+          <a href="https://www.seniorlifestyle.com/resources/blog/7-best-exercises-for-seniors-and-a-few-to-avoid/" target="_blank">
+          <img className='exercise-image'  src="/images/old_exercise.jpg" alt="" />
+            <p>Old Age(60+ yrs)</p></a>
+        </div>
+        <div className="exercise-box">
+          <a href="https://www.whattoexpect.com/pregnancy/exercises-for-pregnant-women" target="_blank">
+          <img className='exercise-image' src="/images/woman_exercise.webp" alt="" />
+          <p>Pregnant Woman</p></a>
+        </div>
+      </div>
     </div>
   )
 }

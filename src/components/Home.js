@@ -1,31 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Bmi from './Bmi';
-// // import {
-// //   BrowserRouter as Router,
-// //   Routes,
-// //   Route
-// // } from 'react-router-dom';
+
 
 export default function Home() {
-  // function linkHtml() {
-  //   return (
-  //     <div>
-  //       <Bmi />
-  //       {/* <Router>
 
-  //         <Routes>
-  //           <Route path='/bmi' element={<Bmi />} />
-  //         </Routes>
-
-  //       </Router> */}
-  //     </div>
-  //   )
-  // }
 
   return (
     <div className='container'>
-      <marquee behavior="" direction="left"> Want to know your BMI? &nbsp;<Link to="/calorie_tracker/bmi"><button className='bmi-btn' >Click Me</button></Link></marquee>
+      <marquee behavior="" direction="left"><Link to="/calorie_tracker/bmi"> Want to know your BMI? &nbsp;<button className='bmi-btn' >Click Me</button></Link></marquee>
       <h1 className="heading">Calorie Counter:</h1>
 
 
@@ -39,10 +22,16 @@ export default function Home() {
           easy
           to read, and you can easily count the calories in food that you eat.</p>
         <p> <br />
-          <b>Food Intake:</b> in order to reduce your weight and remove unwanted calories, you are supposed to
+          <b>What is health? </b>
+
+          The World health organisation (WHO) defines health as "a state of complete physical, mental and social well-being and not merely the absence of disease and infirmity." To put it into simple words, into our regular perspective of the word "health" , it is a situation of not falling ill or not letting our body go through any kind of problems now, and in the near future.
+          <br />
+          {/* <b>Food Intake:</b> */}
+          {/* in order to reduce your weight and remove unwanted calories, you are supposed to
           follow a
-          regulated and healthy food intake. this will allow you to be fit and fine.
-        </p><br />
+          regulated and healthy food intake. this will allow you to be fit and fine. */}
+        </p>
+        <br />
         <p><b>Exercise:</b> along with food, you need to follow few regular exercises which will allow you to be fit
           and gives
           mental relaxation. Calories are calculated using these exercises. try to increase the time spent on each
@@ -51,23 +40,15 @@ export default function Home() {
         <br />
         <p><b>What is a Calorie?</b></p>
         <p>
-          In a nutritional context, the kilojoule (kJ) is the SI unit of food energy, although the kilocalorie is
-          still in common use.
-          The word calorie is popularly used with the number of kilocalories of nutritional energy measured. As if
-          to avoid
-          confusion, it is sometimes written Calorie (with a capital "C") in an attempt to make the distinction,
-          although
-          this is not widely understood. Capitalization contravenes the rule that the initial letter of a unit
-          name or
-          its derivative shall be lower case in English.</p>
-        <p>
-          To facilitate comparison, specific energy or energy density figures are often quoted as "calories per
-          serving" or "kilocalories
-          per 100 g". A nutritional requirement or consumption is often expressed in calories per day. One gram of
-          fat
-          in food contains nine kilocalories, while a gram of either a carbohydrate or a protein contains
-          approximately
-          four kilocalories. Alcohol in a food contains seven kilocalories per gram.</p>
+          The amount of energy in an item of food or drink is measured in calories.
+
+          When we eat and drink more calories than we use up, our bodies store the excess as body fat. If this continues, over time we may put on weight.
+
+          As a guide, an average man needs around 2,500kcal (10,500kJ) a day to maintain a healthy body weight.
+
+          For an average woman, that figure is around 2,000kcal (8,400kJ) a day.
+
+          These values can vary depending on age, size and levels of physical activity, among other factors.</p>
       </div>
     </div>
   )
