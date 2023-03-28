@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fitness_tracker/precache-manifest.a52c4a78d90bcba920cf5975d62dbcb7.js"
+  "/calorie_tracker/precache-manifest.6e19b6d72f7787a803ec910b8d2d0433.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/fitness_tracker/index.html", {
+workbox.routing.registerNavigationRoute("/calorie_tracker/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
