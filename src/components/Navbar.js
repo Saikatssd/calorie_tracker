@@ -3,6 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import { CgMenu, CgCloseR } from "react-icons/cg";
 import './navbar.css';
+import logo from './calorie_tracker-logo.png'
 
 export default function Navbar(props) {
     const [openMenu, setOpenMenu] = React.useState(false);
@@ -11,8 +12,7 @@ export default function Navbar(props) {
         <nav className={openMenu ? "navbar active" : "navbar"}>
 
             <div className="navbar-header">
-                <img className='navbar-heading' src="/calorie_tracker-logo.png" alt="" />
-                {/* <h2 className="navbar-heading">Calorie Tracker</h2> */}
+                <img className='navbar-heading' src={logo} alt="" />
             </div>
 
             <ul className="nav-items">

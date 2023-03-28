@@ -55,8 +55,8 @@ export default function Blog() {
 
 
                     <div>
-                        <a href="https://www.aboutkidshealth.ca/Article?contentid=638&language=English">
-                            <img src="https://valeriemillett.com/c4/img/4f419a4508e372097547d10a48d632d9.jpg" ClassName="img-responsive" alt="HelpIHateVegetables" />
+                        <a href="https://blog.myfitnesspal.com/5-signs-youre-not-eating-enough-protein/">
+                            <img src="https://blog.myfitnesspal.com/wp-content/uploads/2020/11/10-Signs-Youre-Not-Eating-Enough-Protein-2-752x472.jpg" ClassName="img-responsive" alt="HelpIHateVegetables" />
                             <p>Healty Eating Tips for teens</p>
                         </a>
                     </div>
