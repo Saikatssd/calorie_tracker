@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
 
 export default function Challenge() {
     return (
@@ -24,13 +23,6 @@ export default function Challenge() {
                              />
                     </a>
                 </div>
-                {/* <div>
-                    <a href="https://darebee.com/challenges/level-up-challenge.html">
-                        <img src="https://darebee.com/images/challenges/level-up-challenge.jpg" alt="water-challenge-intro"
-                             />
-                    </a>
-                </div> */}
-
 
                 <div>
                     <a href="https://darebee.com/challenges/walk-and-run-challenge.html">
@@ -42,7 +34,6 @@ export default function Challenge() {
 
 
             </div>
-            {/* <Link to='/'>Retun Home</Link> */}
         </div >
     )
 }

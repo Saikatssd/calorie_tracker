@@ -1,6 +1,6 @@
 {
-  "homepage": "https://Saikatssd.github.io/fitness_tracker",
-  "name": "fitness_tracker",
+  "homepage": "https://Saikatssd.github.io/calorie_tracker",
+  "name": "calorie_tracker",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

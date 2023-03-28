@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <div className='container'>
-      <marquee behavior="" direction="left"><Link to="/fitness_tracker/bmi"> Want to know your BMI? &nbsp;<button className='bmi-btn' >Click Me</button></Link></marquee>
+      <marquee behavior="" direction="left"><Link to="/calorie_tracker/bmi"> Want to know your BMI? &nbsp;<button className='bmi-btn' >Click Me</button></Link></marquee>
       <h1 className="heading">Calorie Counter:</h1>
 
 
@@ -26,10 +26,6 @@ export default function Home() {
 
           The World health organisation (WHO) defines health as "a state of complete physical, mental and social well-being and not merely the absence of disease and infirmity." To put it into simple words, into our regular perspective of the word "health" , it is a situation of not falling ill or not letting our body go through any kind of problems now, and in the near future.
           <br />
-          {/* <b>Food Intake:</b> */}
-          {/* in order to reduce your weight and remove unwanted calories, you are supposed to
-          follow a
-          regulated and healthy food intake. this will allow you to be fit and fine. */}
         </p>
         <br />
         <p><b>Exercise:</b> along with food, you need to follow few regular exercises which will allow you to be fit

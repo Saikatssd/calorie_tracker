@@ -16,18 +16,20 @@ body {
 .food-image {
     width: 100px;
 }
+
 .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.bmi-btn{
+.bmi-btn {
     padding: 3px;
     border-radius: 5px;
     border: none;
     color: rgb(99, 32, 32);
 }
+
 .blog-container {
     display: flex;
     gap: 8%;
@@ -46,7 +48,9 @@ body {
     border-radius: 3px;
     margin-bottom: 8px;
 }
-
+.blog-box{
+    text-align: center;
+}
 .challenge-container {
     display: flex;
     gap: 8%;
@@ -54,7 +58,7 @@ body {
     flex-wrap: wrap;
 }
 
-.challenge-container img{
+.challenge-container img {
     width: 300px;
     height: 450px;
     border-radius: 3px;
@@ -64,40 +68,57 @@ body {
 
 
 /* FOOD */
-.food-container{
+.food-container {
     display: flex;
     flex-wrap: wrap;
     /* justify-content: center; */
 }
-.food-box{
+
+.food-box {
     margin: 2rem;
 }
-.food-box iframe{
+
+.food-box input {
+    text-indent: 0.6rem;
+    padding: 0.3rem;
+    font-size: 1.3rem;
+    margin: 0.1rem 0.5rem;
+}
+.submit-btn{
+    padding: 0.1rem;
+}
+
+.food-box iframe {
     margin-top: 1rem;
-    width: 40rem;
+    width: 35rem;
     height: 50rem;
 }
-.food-click-here{
-    margin-top:5rem ;
+
+.food-click-here {
+    margin-top: 5rem;
     color: maroon;
 }
 
-.exercise-container{
+.exercise-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.exercise-image{
+
+.exercise-image {
     height: 30rem;
     width: 35rem;
     border-radius: 0.4rem;
     margin: 1rem 0;
 
 }
-.exercise-box{
+
+.exercise-box {
     margin: 2rem 5rem;
+    text-align: center;
 }
-.exercise-heading{
+
+.exercise-heading {
     font-size: 3.3rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-left: 17rem;
