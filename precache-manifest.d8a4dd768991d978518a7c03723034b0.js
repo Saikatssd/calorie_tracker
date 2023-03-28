@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "fd925c4c01072687e39d",
-    "url": "/fitness_tracker/static/css/main.414cf322.chunk.css"
+    "revision": "0e0c8c759211d02bc343",
+    "url": "/fitness_tracker/static/css/main.fccb18be.chunk.css"
   },
   {
-    "revision": "fd925c4c01072687e39d",
-    "url": "/fitness_tracker/static/js/main.fd925c4c.chunk.js"
+    "revision": "0e0c8c759211d02bc343",
+    "url": "/fitness_tracker/static/js/main.0e0c8c75.chunk.js"
   },
   {
     "revision": "a89266deb73d87b01859",
     "url": "/fitness_tracker/static/js/1.a89266de.chunk.js"
   },
   {
-    "revision": "442f9bb09ebd334a668c",
-    "url": "/fitness_tracker/static/js/2.442f9bb0.chunk.js"
+    "revision": "a90990ff7d96f4d6d17e",
+    "url": "/fitness_tracker/static/js/2.a90990ff.chunk.js"
   },
   {
     "revision": "c0da5008ed1709f3af0e",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/fitness_tracker/static/media/calorie_tracker-logo.6bfd8773.png"
   },
   {
-    "revision": "97eceeaf0dde93685de03dc0a97c2f3a",
+    "revision": "5cb4a657340c3689fd2497ee983ac0fc",
     "url": "/fitness_tracker/index.html"
   }
 ];
