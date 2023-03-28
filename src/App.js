@@ -23,12 +23,12 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route index path="/calorie_tracker" element={<Home />} />
-          <Route exact path="/calorie_tracker/bmi" element={<Bmi />} />
-          <Route exact path="/calorie_tracker/food" element={<Food />} />
-          <Route exact path="/calorie_tracker/exercise" element={<Exercise />} />
-          <Route exact path="/calorie_tracker/blog" element={<Blog />} />
-          <Route exact path="/calorie_tracker/challenges" element={<Challenge />} />
+          <Route index path="/fitness_tracker" element={<Home />} />
+          <Route exact path="/fitness_tracker/bmi" element={<Bmi />} />
+          <Route exact path="/fitness_tracker/food" element={<Food />} />
+          <Route exact path="/fitness_tracker/exercise" element={<Exercise />} />
+          <Route exact path="/fitness_tracker/blog" element={<Blog />} />
+          <Route exact path="/fitness_tracker/challenges" element={<Challenge />} />
         </Routes>
       </Router>
     </div>

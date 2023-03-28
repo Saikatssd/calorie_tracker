@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <div className='container'>
-      <marquee behavior="" direction="left"><Link to="/calorie_tracker/bmi"> Want to know your BMI? &nbsp;<button className='bmi-btn' >Click Me</button></Link></marquee>
+      <marquee behavior="" direction="left"><Link to="/fitness_tracker/bmi"> Want to know your BMI? &nbsp;<button className='bmi-btn' >Click Me</button></Link></marquee>
       <h1 className="heading">Calorie Counter:</h1>
 
 

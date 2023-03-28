@@ -61,6 +61,27 @@ body {
     margin-bottom: 20px;
 }
 
+
+
+/* FOOD */
+.food-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+.food-box{
+    margin: 2rem;
+}
+.food-box iframe{
+    margin-top: 1rem;
+    width: 40rem;
+    height: 50rem;
+}
+.food-click-here{
+    margin-top:5rem ;
+    color: maroon;
+}
+
 .exercise-container{
     display: flex;
     flex-wrap: wrap;
