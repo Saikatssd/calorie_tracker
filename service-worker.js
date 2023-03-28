@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fitness_tracker/precache-manifest.a5b035316c4f14331945c1ac7b4e7fe4.js"
+  "/fitness_tracker/precache-manifest.f7caa1093b1c20128fdd11ba15b8a064.js"
 );
 
 workbox.clientsClaim();
