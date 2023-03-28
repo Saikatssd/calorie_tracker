@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0e0c8c759211d02bc343",
-    "url": "/fitness_tracker/static/css/main.fccb18be.chunk.css"
+    "revision": "e4b6b4efe27d06f3dfa4",
+    "url": "/fitness_tracker/static/css/main.4315e36e.chunk.css"
   },
   {
-    "revision": "0e0c8c759211d02bc343",
-    "url": "/fitness_tracker/static/js/main.0e0c8c75.chunk.js"
+    "revision": "e4b6b4efe27d06f3dfa4",
+    "url": "/fitness_tracker/static/js/main.e4b6b4ef.chunk.js"
   },
   {
     "revision": "a89266deb73d87b01859",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/fitness_tracker/static/media/calorie_tracker-logo.6bfd8773.png"
   },
   {
-    "revision": "5cb4a657340c3689fd2497ee983ac0fc",
+    "revision": "8f75a5417b420f70a44b882d0df067fa",
     "url": "/fitness_tracker/index.html"
   }
 ];
